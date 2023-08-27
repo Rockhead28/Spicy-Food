@@ -10,9 +10,6 @@ while True:
     elif spicyfood == 'yes':
         print('Great, let me make you one')
         break
-    elif spicyfood == 'what':
-        print ('what?')
-        break
     else:
         print('Invalid input. Please enter "Yes" or "No".')
 print('Enjoy your meal!')
