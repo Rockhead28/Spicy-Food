@@ -1,3 +1,6 @@
+#to get input from user if they like to eat spicy food
+#goal is to get a valid response, else code is to loop back to re ask the questions
+
 while True:
     spicyfood = input('Can you eat spicy food? Yes or No: ').strip().lower()
     
@@ -13,3 +16,6 @@ while True:
     else:
         print('Invalid input. Please enter "Yes" or "No".')
 print('Enjoy your meal!')
+
+#combine while loops with else if function
+#took 2 hours to figure how to combine both functions
